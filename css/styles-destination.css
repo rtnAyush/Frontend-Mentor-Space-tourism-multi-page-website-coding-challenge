@@ -1,0 +1,74 @@
+body {
+  background-image: url("../assets/destination/background-destination-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Bellefair', serif;
+}
+
+.container{
+  margin: auto 15%;
+  padding-bottom: 5%;
+}
+
+.text-type1{
+  font-size: 6.25em;
+}
+
+.text-type2{
+  font-family: Bellefair;
+}
+
+.text-type3{
+  width: 70%;
+}
+
+.mid-text{
+  margin: 3% 10%;
+}
+
+.mid-text span{
+  opacity: 0.2;
+}
+
+.navbar-nav1{
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.line{
+  width: 77%;
+  margin: 6% 0 2%;
+}
+
+@media (max-width:1200px) {
+  body{
+    background-image: url("../assets/destination/background-destination-tablet.jpg");
+  }
+  .container{
+    margin: auto;
+    text-align: center;
+  }
+  .text-type3{
+    margin: auto;
+  }
+  .line{
+    margin: 6% auto 2%;
+  }
+  .navbar-nav{
+    margin: 3% auto;
+  }
+}
+
+@media (max-width:667px) {
+  body{
+    background-image: url("../assets/destination/background-destination-mobile.jpg");
+  }
+
+  .mid-text{
+    margin: 3% auto;
+  }
+}

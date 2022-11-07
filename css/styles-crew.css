@@ -1,0 +1,125 @@
+body {
+  background-image: url("../assets/crew/background-crew-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Bellefair', serif;
+}
+
+.container {
+  margin: auto 8%;
+}
+
+.text-type1 {
+  font-size: 3.5rem;
+}
+
+.text-type2 {
+  font-family: Bellefair;
+}
+
+.text-type3 {
+  width: 70%;
+}
+
+.crew-job-text {
+  opacity: 0.5;
+}
+
+.mid-text span {
+  opacity: 0.2;
+}
+
+.line {
+  width: 77%;
+  margin: 6% 0 2%;
+}
+
+.content {
+  margin-top: 15%;
+}
+
+#navigation-circles {
+  margin-top: 15%;
+}
+
+.fa {
+  color: #595C5C;
+  width: 15px;
+}
+
+.link-circle {
+  margin-left: 5%;
+}
+
+.fa-active {
+  color: #fff;
+}
+
+/* .man-img {
+  margin: 0 5%;
+  text-align: center;
+} */
+
+@media (max-width:1200px) {
+  body {
+    background-image: url("../assets/crew/background-crew-tablet.jpg");
+  }
+
+  .container {
+    margin: auto;
+    text-align: center;
+  }
+
+  .text-type3 {
+    margin: auto;
+  }
+
+  .mid-text {
+    text-align: left;
+  }
+
+  .line {
+    margin: 6% auto 2%;
+  }
+
+  .navbar-nav {
+    margin: 3% auto;
+  }
+
+  .fa {
+    width: 10px;
+  }
+}
+
+@media (max-width:667px) {
+  body {
+    background-image: url("../assets/crew/background-crew-mobile.jpg");
+  }
+
+  .text-type1 {
+    font-size: 1.5rem;
+  }
+
+  .text-type2 {
+    font-size: 1rem;
+  }
+
+  .text-type3 {
+    font-size: 1rem;
+  }
+
+  .mid-text {
+    margin: 3% auto;
+  }
+
+  .man-img {
+    width: 14.1875rem;
+    margin: auto;
+  }
+
+  .col-sm-12 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

@@ -67,8 +67,19 @@ body {
   body{
     background-image: url("../assets/destination/background-destination-mobile.jpg");
   }
-
+  .text-type1{
+    font-size: 3.5rem;
+  }
+  .text-type2{
+    font-size: 1rem;
+  }
+  .text-type3{
+    font-size: 1rem;
+  }
   .mid-text{
     margin: 3% auto;
+  }
+  .planet-img{
+    width: 14.1875rem;
   }
 }

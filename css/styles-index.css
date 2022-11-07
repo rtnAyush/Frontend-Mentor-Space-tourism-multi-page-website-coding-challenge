@@ -36,7 +36,7 @@ body {
   padding-bottom: 4%;
 }
 
-.active {
+.active-border {
   border-bottom: solid 3px white;
 }
 
@@ -66,8 +66,6 @@ body {
   font-family: Bellefair;
   font-size: 9.375em;
   font-weight: 400;
-  /* line-height: 10.75em; */
-  /* letter-spacing: 0px; */
 }
 
 .text-type2 {
@@ -110,10 +108,12 @@ body {
 }
 
 @media (max-width:1200px) {
+  body{
+    background-image: url("../assets/home/background-home-tablet.jpg");
+    text-align: center;
+  }
   .mid-part{
     text-align: center;
-    /* margin: 5% auto; */
-    /* background-color: red; */
   }
   .text-type3{
     margin: auto;
@@ -123,14 +123,32 @@ body {
   }
 }
 
-@media (max-width:1200px) {
-  body{
-    background-image: url("../assets/home/background-home-tablet.jpg");
-  }
-}
-
 @media (max-width:667px) {
   body{
     background-image: url("../assets/home/background-home-mobile.jpg");
+  }
+  .text-type1{
+    font-size: 5rem;
+  }
+  .text-type2{
+    font-size: 1rem;
+  }
+  .text-type3{
+    font-size: 1rem;
+  }
+  .circle{
+    width: 10rem;
+    height: 10rem;
+  }
+  .explore-text {
+    color: black;
+    font-family: Bellefair;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.5125em;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 40%;
+    left: 31%;
   }
 }

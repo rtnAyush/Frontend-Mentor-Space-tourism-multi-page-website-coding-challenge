@@ -1,0 +1,188 @@
+body {
+  background-image: url("../assets/technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Bellefair', serif;
+}
+
+.not-only-big-screen {
+  position: absolute;
+  left: -999em;
+}
+
+.only-big-screen {
+  padding-left: 11%;
+}
+
+.container-float {
+  padding-bottom: 5%;
+}
+
+.text-type1 {
+  font-size: 3.5rem;
+}
+
+.text-type2 {
+  font-family: Bellefair;
+  font-size: 0.7rem;
+}
+
+.text-type3 {
+  width: 70%;
+}
+
+.crew-job-text {
+  opacity: 0.5;
+}
+
+.mid-text {
+  margin: 3% 10%;
+  font-size: 1.75rem;
+}
+
+.mid-text span {
+  opacity: 0.2;
+}
+
+.content {
+  margin-top: 15%;
+}
+
+#navigation-circles {
+  margin-top: 8%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.each-circle{
+  height: 5rem;
+  width: 5rem;
+  border: solid rgba(255, 255, 255, .6) 1px;
+  border-radius: 100%;
+  margin: 18% 0;
+  display: block;
+  position: relative;
+}
+
+.each-circle span{
+  text-decoration: none;
+  color: #fff;
+  font-family: Bellefair;
+  font-size: 2rem;
+  font-weight: 400;
+  position: absolute;
+  top: 22%;
+  left: 43%;
+}
+
+.active-circle,.active-circle span{
+  background-color: #fff;
+  color: black;
+}
+
+.technology-img {
+  text-align: right;
+}
+
+@media (max-width:1200px) {
+  body {
+    background-image: url("../assets/technology/background-technology-desktop.jpg");
+    text-align: center;
+  }
+
+  .only-big-screen {
+    position: absolute;
+    left: -999em;
+  }
+
+  .not-only-big-screen {
+    position: static;
+    left: auto;
+    padding-bottom: 5%;
+  }
+
+  .container {
+    margin: 3%;
+    text-align: center;
+  }
+
+  .text-type3 {
+    margin: auto;
+  }
+
+  .mid-text {
+    margin-left: 5%;
+    text-align: left;
+  }
+
+  .navbar-nav {
+    margin: 3% auto;
+  }
+
+  .content {
+    margin-top: auto;
+  }
+
+  .each-circle {
+    height: 3.75rem;
+    width: 3.75rem;
+    position: relative;
+    margin: auto;
+    display: inline-block;
+    margin: 5% 1%;
+  }
+
+  .each-circle span {
+    font-size: 1rem;
+    position: absolute;
+    top: 30%;
+    left: 43%;
+  }
+
+  .technology-img {
+    width: 100%;
+  }
+}
+
+@media (max-width:667px) {
+  body {
+    background-image: url("../assets/technology/background-technology-desktop.jpg");
+    text-align: center;
+  }
+
+  .text-type1 {
+    font-size: 1.5rem;
+  }
+
+  .text-type2 {
+    font-size: 1rem;
+  }
+
+  .text-type3 {
+    font-size: 1rem;
+  }
+
+  .mid-text {
+    margin: 3% auto;
+    text-align: center;
+  }
+
+  .each-circle {
+    height: 2.5rem;
+    width: 2.5rem;
+    position: relative;
+    margin: auto;
+    display: inline-block;
+    margin: 5% 1%;
+  }
+
+  .each-circle span {
+    font-size: 0.75rem;
+    position: absolute;
+    top: 30%;
+    left: 43%;
+  }
+}

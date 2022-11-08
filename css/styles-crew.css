@@ -6,6 +6,11 @@ body {
   font-family: 'Bellefair', serif;
 }
 
+.not-only-big-screen {
+  position: absolute;
+  left: -999em;
+}
+
 .container {
   margin: auto 8%;
 }
@@ -26,13 +31,12 @@ body {
   opacity: 0.5;
 }
 
-.mid-text span {
-  opacity: 0.2;
+.mid-text {
+  margin: 3% 10%;
 }
 
-.line {
-  width: 77%;
-  margin: 6% 0 2%;
+.mid-text span {
+  opacity: 0.2;
 }
 
 .content {
@@ -48,27 +52,60 @@ body {
   width: 15px;
 }
 
-.link-circle {
-  margin-left: 5%;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+.each-circle {
+  margin: auto 1%;
 }
 
 .fa-active {
   color: #fff;
 }
 
-/* .man-img {
+.man-img {
   margin: 0 5%;
   text-align: center;
-} */
+}
+
+.line {
+  opacity: 0;
+}
 
 @media (max-width:1200px) {
   body {
     background-image: url("../assets/crew/background-crew-tablet.jpg");
+    text-align: center;
+  }
+
+  .only-big-screen {
+    position: absolute;
+    left: -999em;
+  }
+
+  .not-only-big-screen {
+    position: static;
+    left: auto;
   }
 
   .container {
-    margin: auto;
+    margin: 3%;
     text-align: center;
+  }
+
+  .content {
+    margin-top: auto;
+  }
+
+  #navigation-circles {
+    margin: 3% auto;
   }
 
   .text-type3 {
@@ -76,25 +113,25 @@ body {
   }
 
   .mid-text {
+    margin-left: 5%;
     text-align: left;
-  }
-
-  .line {
-    margin: 6% auto 2%;
   }
 
   .navbar-nav {
     margin: 3% auto;
   }
 
-  .fa {
-    width: 10px;
+  .man-img {
+    margin: auto;
+    text-align: center;
+    height: 35.75rem;
   }
 }
 
 @media (max-width:667px) {
   body {
     background-image: url("../assets/crew/background-crew-mobile.jpg");
+    text-align: center;
   }
 
   .text-type1 {
@@ -111,15 +148,20 @@ body {
 
   .mid-text {
     margin: 3% auto;
+    text-align: center;
   }
 
   .man-img {
-    width: 14.1875rem;
+    height: 13.9375rem;
     margin: auto;
   }
 
-  .col-sm-12 {
-    display: flex;
-    flex-direction: column-reverse;
+  .line {
+    opacity: 0.2;
+    margin: 0 auto;
+  }
+
+  .fa {
+    width: 5px;
   }
 }

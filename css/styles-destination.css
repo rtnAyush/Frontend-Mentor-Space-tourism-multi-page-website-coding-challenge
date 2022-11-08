@@ -61,6 +61,13 @@ body {
   .navbar-nav{
     margin: 3% auto;
   }
+  .planet-img{
+    width: 18.75rem;
+  }
+  .mid-text{
+    margin-left:5%;
+    text-align: left;
+  }
 }
 
 @media (max-width:667px) {
@@ -78,6 +85,7 @@ body {
   }
   .mid-text{
     margin: 3% auto;
+    text-align: center;
   }
   .planet-img{
     width: 14.1875rem;

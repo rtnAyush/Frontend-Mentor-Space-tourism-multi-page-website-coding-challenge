@@ -6,11 +6,6 @@ body {
   font-family: 'Bellefair', serif;
 }
 
-.not-only-big-screen {
-  position: absolute;
-  left: -999em;
-}
-
 .container {
   margin: auto 8%;
 }
@@ -85,18 +80,8 @@ li {
     text-align: center;
   }
 
-  .only-big-screen {
-    position: absolute;
-    left: -999em;
-  }
-
-  .not-only-big-screen {
-    position: static;
-    left: auto;
-  }
-
   .container {
-    margin: 3%;
+    margin: 3% auto;
     text-align: center;
   }
 
@@ -134,6 +119,22 @@ li {
     text-align: center;
   }
 
+  .text-box{
+    order: 2;
+  }
+
+  .img-box{
+    order: 1;
+  }
+
+  .content{
+    order: 2;
+  }
+
+  #navigation-circles {
+    order: 1;
+  }
+
   .text-type1 {
     font-size: 1.5rem;
   }
@@ -159,6 +160,7 @@ li {
   .line {
     opacity: 0.2;
     margin: 0 auto;
+    width: 90%;
   }
 
   .fa {

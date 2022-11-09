@@ -6,16 +6,8 @@ body {
   font-family: 'Bellefair', serif;
 }
 
-.not-only-big-screen {
-  position: absolute;
-  left: -999em;
-}
-
-.only-big-screen {
-  padding-left: 11%;
-}
-
-.container-float {
+.container-fluid {
+  margin-left: 10%;
   padding-bottom: 5%;
 }
 
@@ -83,8 +75,12 @@ a{
   color: black;
 }
 
-.technology-img {
+.tech-po-img {
   text-align: right;
+}
+
+.tech-la-img{
+  width: 0;
 }
 
 @media (max-width:1200px) {
@@ -93,20 +89,23 @@ a{
     text-align: center;
   }
 
-  .only-big-screen {
-    position: absolute;
-    left: -999em;
+  .circle-box{
+    order: 2;
   }
 
-  .not-only-big-screen {
-    position: static;
-    left: auto;
-    padding-bottom: 5%;
+  .text-box{
+    order: 3;
   }
 
-  .container {
-    margin: 3%;
+  .img-box{
+    order: 1;
+    padding: 0;
+  }
+
+  .container-fluid {
+    margin: 0;
     text-align: center;
+    padding-bottom: 10%;
   }
 
   .text-type3 {
@@ -116,10 +115,6 @@ a{
   .mid-text {
     margin-left: 5%;
     text-align: left;
-  }
-
-  .navbar-nav {
-    margin: 3% auto;
   }
 
   .content {
@@ -142,7 +137,11 @@ a{
     left: 43%;
   }
 
-  .technology-img {
+  .tech-po-img {
+    width: 0;
+  }
+
+  .tech-la-img{
     width: 100%;
   }
 }
